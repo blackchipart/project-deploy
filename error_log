@@ -1,0 +1,74 @@
+[17-Jan-2024 23:32:33 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[17-Jan-2024 23:36:42 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[17-Jan-2024 23:42:47 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[17-Jan-2024 23:48:24 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[17-Jan-2024 23:54:34 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[18-Jan-2024 00:04:02 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[18-Jan-2024 06:23:46 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[18-Jan-2024 13:27:35 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[18-Jan-2024 22:09:25 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[19-Jan-2024 01:41:44 UTC] PHP Warning:  Undefined property: stdClass::$publish in /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Commerce.php on line 64
+[19-Jan-2024 01:41:44 UTC] PHP Warning:  Undefined property: stdClass::$publish in /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-data/includes/Listeners/Commerce.php on line 80
+[19-Jan-2024 08:18:41 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[19-Jan-2024 08:18:41 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[19-Jan-2024 08:18:42 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[23-Jan-2024 21:09:30 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[23-Jan-2024 21:10:32 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[23-Jan-2024 21:10:35 UTC] Cron reschedule event error for hook: nfd_module_installer_theme_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"ten_seconds","args":[],"interval":10}
+[23-Jan-2024 21:10:45 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Jan-2024 21:10:45 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[23-Jan-2024 21:12:20 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[23-Jan-2024 21:12:25 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, WP_Error given in /home4/ngobmamy/public_html/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php:88
+Stack trace:
+#0 /home4/ngobmamy/public_html/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php(88): array_key_exists('jetpack', Object(WP_Error))
+#1 /home4/ngobmamy/public_html/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-manager.php(2055): Automattic\Jetpack\Connection\Plugin->is_only()
+#2 /home4/ngobmamy/public_html/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-manager.php(1718): Automattic\Jetpack\Connection\Manager->disconnect_site(true, false)
+#3 /home4/ngobmamy/public_html/wp-content/plugins/jetpack/class.jetpack.php(3055): Automattic\Jetpack\Connection\Manager->remove_connection(true)
+#4 /home4/ngobmamy/public_html/wp-content/plugins/jetpack/class.jetpack.php(3027): Jetpack::disconnect()
+#5 /home4/ngobmamy/public_html/wp-includes/class-wp-hook.php(324): Jetpack::plugin_deactivation(false)
+#6 /home4/ngobmamy/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 /home4/ngobmamy/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home4/ngobmamy/public_html/wp-admin/includes/plugin.php(816): do_action('deactivate_jetp...', false)
+#9 /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/Services/PluginInstaller.php(387): deactivate_plugins('jetpack/jetpack...')
+#10 /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/Tasks/PluginDeactivationTask.php(87): NewfoldLabs\WP\Module\Installer\Services\PluginInstaller::deactivate('jetpack')
+#11 /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-installer/includes/TaskManagers/PluginDeactivationTaskManager.php(69): NewfoldLabs\WP\Module\Installer\Tasks\PluginDeactivationTask->execute()
+#12 /home4/ngobmamy/public_html/wp-includes/class-wp-hook.php(324): NewfoldLabs\WP\Module\Installer\TaskManagers\PluginDeactivationTaskManager->deactivate()
+#13 /home4/ngobmamy/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /home4/ngobmamy/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /home4/ngobmamy/public_html/wp-cron.php(191): do_action_ref_array('nfd_module_inst...', Array)
+#16 {main}
+  thrown in /home4/ngobmamy/public_html/wp-content/plugins/jetpack/jetpack_vendor/automattic/jetpack-connection/src/class-plugin.php on line 88
+[23-Jan-2024 21:12:31 UTC] PHP Warning:  Undefined array key 5 in /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-patterns/includes/PostFiltersHandler.php on line 86
+[23-Jan-2024 21:12:31 UTC] PHP Warning:  Trying to access array offset on null in /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-patterns/includes/PostFiltersHandler.php on line 86
+[23-Jan-2024 21:12:36 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[23-Jan-2024 21:13:09 UTC] PHP Warning:  Undefined array key 5 in /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-patterns/includes/PostFiltersHandler.php on line 86
+[23-Jan-2024 21:13:09 UTC] PHP Warning:  Trying to access array offset on null in /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-patterns/includes/PostFiltersHandler.php on line 86
+[23-Jan-2024 21:13:09 UTC] PHP Warning:  Undefined array key 5 in /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-patterns/includes/PostFiltersHandler.php on line 86
+[23-Jan-2024 21:13:09 UTC] PHP Warning:  Trying to access array offset on null in /home4/ngobmamy/public_html/wp-content/plugins/bluehost-wordpress-plugin/vendor/newfold-labs/wp-module-patterns/includes/PostFiltersHandler.php on line 86
+[23-Jan-2024 21:16:14 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[23-Jan-2024 21:17:35 UTC] Cron reschedule event error for hook: nfd_module_installer_plugin_install_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"thirty_seconds","args":[],"interval":30}
+[23-Jan-2024 21:21:59 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[23-Jan-2024 21:28:06 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[23-Jan-2024 23:23:34 UTC] Cron reschedule event error for hook: nfd_data_sync_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"minutely","args":[],"interval":60}
+[24-Jan-2024 03:33:12 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[24-Jan-2024 04:29:45 UTC] Bluehost WP Plugin: Failed to fetch token: {"error":"Forbidden","http_status":403,"_status_code":403,"_response":"{\"error\":\"Forbidden\",\"http_status\":403}"}
+[24-Jan-2024 09:31:46 UTC] Cron reschedule event error for hook: nfd_data_sync_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"minutely","args":[],"interval":60}
+[24-Jan-2024 09:34:26 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[25-Jan-2024 19:44:43 UTC] PHP Warning:  Attempt to read property "public" on null in /home4/ngobmamy/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 544
+[01-Feb-2024 03:34:58 UTC] Cron reschedule event error for hook: jetpack_sync_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"jetpack_sync_interval","args":[],"interval":300}
+[01-Feb-2024 03:34:58 UTC] Cron reschedule event error for hook: jetpack_sync_full_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"jetpack_sync_interval","args":[],"interval":300}
+[02-Feb-2024 06:49:42 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home4/ngobmamy/public_html/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home4/ngobmamy/public_html/wp-settings.php on line 33
+[03-Feb-2024 09:48:37 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home4/ngobmamy/public_html/wp-content/plugins/mailpoet/lib/Util/Cookies.php on line 28
+[03-Feb-2024 09:51:37 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home4/ngobmamy/public_html/wp-content/plugins/mailpoet/lib/Util/Cookies.php on line 28
+[03-Feb-2024 09:54:38 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home4/ngobmamy/public_html/wp-content/plugins/mailpoet/lib/Util/Cookies.php on line 28
+[05-Feb-2024 15:44:20 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home4/ngobmamy/public_html/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home4/ngobmamy/public_html/wp-settings.php on line 33
+[10-Feb-2024 03:42:17 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home4/ngobmamy/public_html/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home4/ngobmamy/public_html/wp-settings.php on line 33
